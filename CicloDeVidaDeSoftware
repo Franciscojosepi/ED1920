@@ -1,0 +1,111 @@
+#Ciclo de vida del software
+**1- Define "Ciclo de vida del software".**
+El ciclo de vida del desarrollo software, es una secuencia estructurada y bien definida de las etapas en Ingeniería de software para desarrollar el producto sofware deseado.
+
+**2- Nombra las fases principales del desarrollo de software y explica brevemente que se hace en cada una de ellas.**
+- Planificación: Es el paso previo al inicio de cualquier proyecto de desarrollo. En este se definen los requerimientos y funcionalidades que debe tener el software.
+- Implementación: es parte del proceso en el que los ingenieros de software programan el código para el proyecto de trabajo que está en relación de las demanda del software.
+- Pruebas: se hacen pruebas para detectar los errores de software lo antes posible. 
+- Documentación: se documenta todo el proceso para facilitar su mejora y su mantenimiento,
+- Despliegue: comienza cuando el código ha sido suficientemente probado, ha sido aprobado para su liberación y ha sido distribuido en el entorno de producción.
+- Mantenimiento: se realiza una mejora de un software con problemas recientemente desplegado.
+
+**3- Explica brevemente en qué consiste el modelo en cascada cuando hablamos de desarrollo de software.**
+El modelo en cascada es un proceso de desarrollo secuencial, en el que el desarrollo de software se concibe como un conjunto de etapas que se ejecutan una tras otra. Se le denomina así por las posiciones que ocupan las diferentes fases que componen el proyecto, colocadas una encima de otra, y siguiendo un flujo de ejecución de arriba hacia abajo, como una cascada.
+
+**4- Ventajas e inconvenientes del modelo en cascada.**
+Entre las ventajas destacan:
+- El tiempo que se pasa en diseñar el producto en las primeras fases del proceso puede evitar problemas que serían más costosos cuando el proyecto ya estuviese en fase de desarrollo.
+- La documentación es muy exhaustiva y si se une al equipo un nuevo desarrollador, podrá comprender el proyecto leyendo la documentación.
+- Al ser un proyecto muy estructurado, con fases bien definidas, es fácil entender el proyecto.
+- Ideal para proyectos estables, donde los requisitos son claros y no van a cambiar a lo largo del proceso de desarrollo.
+Entre los inconvenientes sobresalen:
+- En muchas ocasiones, los clientes no saben bien los requisitos que necesitarán antes de ver una primera versión del software en funcionamiento. Entonces, cambiarán muchos requisitos y añadirán otros nuevos, lo que supondrá volver a realizar fases ya superadas y provocará un incremento del coste.
+- No se va mostrando al cliente el producto a medida que se va desarrollando, si no que se ve el resultado una vez ha terminado todo el proceso.  Esto cual provoca inseguridad por parte del cliente que quiere ir viendo los avances en el producto.
+- Los diseñadores pueden no tener en cuenta todas las dificultades que se encontrarán cuando estén diseñando un software, lo que conllevará rediseñar el proyecto para solventar el problema.
+- Para proyectos a largo plazo, este modelo puede suponer un problema al cambiar las necesidades del usuario a lo largo del tiempo.
+
+**5- ¿Qué se entiende por verificación? ¿Y por validación?**
+Se entiende por verificación a la acción de comprobar algo. Es un paso necesario para probar una teoría. Pero, aunque resulte positiva, no nos asegura que el resultado verificado sea correcto. 
+Se entiene por validación el proceso de asegurar que un programa funcione en datos limpios, correctos y útiles.
+
+**6- Explica como funciona el modelo de desarrollo mediante creación de prototipos.**
+El modelo de prototipos permite que todo el sistema, o algunas de sus partes, se construyan rápidamente para comprender con facilidad y aclarar ciertos aspectos en los que se aseguren que el desarrollador, el usuario, el cliente estén de acuerdo en lo que se necesita así como también la solución que se propone para dicha necesidad y de esta forma minimizar el riesgo y la incertidumbre en el desarrollo, este modelo se encarga del desarrollo de diseños para que estos sean analizados y prescindir de ellos a medida que se adhieran nuevas especificaciones, es ideal para medir el alcance del producto, pero no se asegura su uso real.
+Este modelo principalmente se lo aplica cuando un cliente define un conjunto de objetivos generales para el software a desarrollarse sin delimitar detalladamente los requisitos de entrada procesamiento y salida
+
+**7- Explica como funciona el modelo espiral cuando se aplica al desarrollo orientado a objetos.**
+Las actividades de este modelo se conforman en una espiral, en la que cada bucle o iteración representa un conjunto de actividades. Las actividades no están fijadas a ninguna prioridad, sino que las siguientes se eligen en función del análisis de riesgo, comenzando por el bucle interior. 
+
+**8- ¿Qué cuatro principios rigen el desarrollo ágil expresados en el Manifiesto Ágil?**
+Valorar más a los individuos y sus interacciones que a los procesos y las herramientas; valorar más el software funcionando que la documentación exhaustiva; valorar más la colaboración con el cliente que la negociación contractual; valorar más la respuesta ante el cambio que seguir un plan
+
+**9- ¿Qué es una historia de usuario? Consulta el siguiente enlace:**
+    https://es.wikipedia.org/wiki/Historias_de_usuario
+Es una representación de un requisito escrito en una o dos frases utilizando el lenguaje común del usuario.
+
+**10- Haz un resumen sobre que se entiende por Lean software y qué principios lo rigen. Consulta el siguiente enlace:**
+https://es.wikipedia.org/wiki/Lean_software_development
+Es una traducción de los principios y las prácticas de la forma de producir lean, hacia el área del desarrollo de software.
+Se rige por los siguientes principios:
+- Eliminar los desperdicios: Con el fin de poder eliminar los desperdicios deberíamos ser capaces de reconocerlos y encontrarlos. Si alguna actividad podría ser excluida o el mismo resultado podría ser logrado sin ella, esta actividad es considerada un desperdicio.
+- Amplificar el aprendizaje: El desarrollo de software es un proceso de aprendizaje continuo, a ello se le suman los retos de los equipos de desarrollo y el tamaño del producto final. El mejor enfoque para encarar una mejora en el ambiente de desarrollo de software es amplificar el aprendizaje.
+- Decidir lo más tarde posible: los mejores resultados se alcanzan con un enfoque basado en opciones por lo que se pueden retrasar las decisiones tanto como sea posible hasta que éstas se basen en hechos y no en suposiciones y pronósticos inciertos.
+- Entregar tan rápido como sea posible: Cuanto antes se entrega el producto final sin defectos considerables más pronto se pueden recibir comentarios y se incorporan en la siguiente iteración.
+- Capacitar al equipo: En una técnica llamada Work-Out, los roles cambian: a los directivos se les enseña a escuchar a los desarrolladores, de manera que éstos puedan explicar mejor qué acciones podrían tomarse, así como ofrecer sugerencias para mejoras.
+- Construir integridad intrínseca:  Integridad Conceptual significa que los componentes separados del sistema funcionan bien juntos, como en un todo, logrando equilibrio entre la flexibilidad, sostenibilidad, eficiencia y capacidad de respuesta. Esto podría lograrse mediante la comprensión del dominio del problema y resolviéndolo al mismo tiempo, no secuencialmente. 
+
+**11- KANBAN. Estudia las ventajas e inconvenientes de tener una pizarra web digital para la metodología Kanban. Puedes consultar los siguientes enlaces:**
+https://leankit.com/learn/kanban/kanban-board/
+https://leankit.com/product-demo/
+Las principales ventajas que aporta la metodología Kanban es que dada su representación a través de tarjetas, es una metodología muy visual y muy sencilla, por lo que es fácilmente incorporable al sistema y procesos de una empresa, además de que cualquiera que empiece a usarla puede asimilarla de manera rápida y sencilla.
+
+**12- KANBAN. Haz un resumen de la metodología Kanban e indica sus diferencias frente a SCRUM. Puedes consultar el siguiente enlace:**
+https://es.atlassian.com/agile/kanban
+Esta metodología presenta determinadas características que la diferencian del resto de metodologías hábiles.  Entre ellas, destacan los principios en que se basa: una calidad garantizada, una reducción del desperdicio, mejora continua y flexibilidad.
+En muchos casos se intenta diferenciar Kanban de lo que es la metodología Scrum en sí, por lo que vamos a ver algunas de las diferencias que existen entre ambas:
+- En Scrum se trabaja con iteraciones de tiempo fijo,  mientras que en Kanban tenemos un trabajo continuo y no tenemos esas interacciones o esos ciclos durante el desarrollo.
+- Mientras que Scrum exige equipos multidisciplinares, en Kanban se permiten los equipos formados por especialistas. 
+- En Scrum no se permiten cambiar las tareas del Sprint. En Kanban, por el contrario, se puede modificar la tarea hasta que entra en flujo.
+- En Scrum se tienen una serie de reuniones y se utilizan una serie de gráficos, mientras que en Kaban no se considera ni ese tipo de reuniones ni de gráficos.
+
+**13- SCRUM. Explica como funciona Scrum. Consulta los siguientes enlaces:**
+    https://proyectosagiles.org/que-es-scrum/
+    https://proyectosagiles.org/como-funciona-scrum/
+En Scrum un proyecto se ejecuta en ciclos temporales cortos y de duración fija. Cada iteración tiene que proporcionar un resultado completo, un incremento de producto final que sea susceptible de ser entregado con el mínimo esfuerzo al cliente cuando lo solicite. El proceso parte de la lista de objetivos/requisitos priorizada del producto, que actúa como plan del proyecto. 
+    
+**14- SCRUM. Define los siguientes términos:**
+- Product backlog: es un listado de todas las tareas que se pretenden hacer durante el desarrollo de un proyecto.
+- Sprint backlog: es un subconjunto de objetivos/requisitos del Product Backlog seleccionado para la iteración actual y su plan de tareas de desarrollo.
+
+**15- SCRUM. En la terminología Scrum qué terminos se utilizan como sinónimo de:**
+- Jefe de proyecto: se divide en scrum master y product owner.
+- Cliente: Product Owner.
+- Equipo de desarrollo: Scrum Manager.
+
+**16- SCRUM. Haz un resumen de los requisitos para poder utilizar Scrum. Consulta el siguiente enlace:**
+https://proyectosagiles.org/requisitos-de-scrum/
+Los requisitos son: 
+- Cultura de empresa basada en trabajo en equipo, delegación, creatividad y mejora continua.
+- Compromiso del cliente en la dirección de los resultados del proyecto, gestión del ROI y disponibilidad para poder colaborar.
+- Compromiso de la Dirección de la organización para resolver problemas endémicos y realizar cambios organizativos, formando equipos autogestionados y multidisciplinares y fomentando una cultura de gestión basada en la colaboración y en la facilitación llevada a cabo por líderes al servicio del equipo.
+- Compromiso conjunto y colaboración de los miembros del equipo.
+- Relación entre proveedor y cliente basada en ganar-ganar, colaboración y transparencia.
+- Facilidad para realizar cambios en el proyecto.
+- Tamaño de cada equipo entre 5 y 9 personas (con técnicas específicas de planificación y coordinación cuando varios equipos trabajan en el mismo proyecto).
+- Equipo trabajando en un mismo espacio común para maximizar la comunicación.
+- Dedicación del equipo a tiempo completo.
+- Estabilidad de los miembros del equipo.
+
+**17- XP. Explica los 5 valores de la Programación Extrema.**
+1. Comunicación: se realiza por medio de transferencia de conocimientos en reuniones frecuentes cara a cara entre usuarios y desarrolladores, lo que le da a ambos una visión compartida del sistema.
+2. Simplicidad: en XP se comienza desarrollando las soluciones más sencillas necesarias para solucionar los problemas (requerimientos) que se están viendo en ese momento, añadiendo funcionalidad extra más tarde
+3. Retroalimentación (Feedback): el valor de la retroalimentación establece: “Nos tomaremos seriamente los compromisos con el usuario establecidos en todas las iteraciones, entregando software en funcionamiento en cada una. Mostraremos al usuario nuestro software frecuentemente y de forma temprana, escuchando cuidadosamente sus observaciones y realizando los cambios que sean necesarios. Adaptaremos nuestros procesos al proyecto y no al contrario”.
+4. Coraje: establece: “Diremos la verdad en nuestros avances y estimados, no documentaremos excusas para el fracaso, pues planificamos para tener éxito. No tendremos miedo a nada pues sabemos que nadie trabaja solo. Nos adaptaremos a los cambios cuando sea que estos ocurran.”
+5. Respeto: XP establece: “Todos en el equipo dan y reciben el respeto que merecen como integrantes del equipo y los aportes de cada integrante son valorados valorados por todos. Todos contribuyen, así sea simplemente con entusiasmo. Los desarrolladores respetan la experticia de los clientes y viceversa. La Gerencia respeta el derecho del equipo de asumir responsabilidad y tener autoridad sobre su trabajo”.
+
+**18- XP. ¿Cuáles son las características distintivas de XP frente a otras metodologías ágiles? Explícalas. Puedes consultar el siguiente enlace:**
+http://www.davidvalverde.com/blog/introduccion-a-la-programacion-extrema-xp/
+Se compara con la principal metodología ágil. L**as diferencias con scrum:
+- Los Equipos de Scrum normalmente trabajan en iteraciones  con una duración de 2 semanas a un mes. Los Equipos de XP normalmente trabajan con iteraciones muy cortas.
+- Los equipos de Scrum no permiten cambios en sus sprints, mientras que los de XP sí.
+- Scrum no recomienda ninguna buena práctica de desarrollo, mientras que XP si lo hace. 
