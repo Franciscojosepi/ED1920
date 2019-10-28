@@ -1,0 +1,67 @@
+﻿Introducción
+    1. ¿Para que sirve un compilador? ¿Qué tipo de archivo obtenemos tras compilar?
+         Un compilador traduce las instrucciones escritas en un determinado lenguaje de programación a lenguaje máquina. Se genera un archivo ejecutable con extensión .exe.
+    2. ¿Para que sirve un enlazador? ¿Qué tipo de archivo obtenemos tras enlazar?
+         Un enlazador toma los objetos generados en la compilación, la información de todos los recursos necesarios, quita aquellos que no necesita, y enlaza el código objeto con lo que finalmente produce un fichero ejecutable.
+    3. ¿Para que sirve un interprete? ¿Obtenemos algún archivo tras interpretar?
+         Un intérprete recibe un programa en lenguaje de alto nivel, lo analiza y lo ejecuta. 
+    4. Explica cada uno de los siguientes conceptos e indica la relación entre ellos.
+         Código fuente: es un conjunto de líneas de texto con los pasos que debe seguir la computadora para ejecutar un programa. 
+	 Código objeto: es el código que resulta de la compilación del código fuente.
+	 Código binario: es el sistema de codificación usado para la representación de textos, o procesadores de instrucciones de computadora, utilizando el sistema binario (unos y ceros).
+    5. ¿Qué tipo de código es el bytecode generado por el compilador de Java?
+	 Es un codigo intermedio entre el código fuente y el código máquina.
+
+Herramientas de desarrollo
+    1. Ejecuta el programa "Hola mundo" en los siguientes lenguajes:
+    2. Para cada uno de los lenguajes anteriores, indica el proceso realizado para conseguir ejecutar el código: ¿compilación o interpretación?
+         bash: interpretación
+      	 python: interpretación
+      	 php: interpretación
+      	 javascript: interpretación
+      	 c: compilación
+      	 c++: compilación
+      	 java: compilación
+      	 ruby: interpretación
+      	 go: compilación
+      	 rust: compilación
+      	 lisp: interpretación
+      	 ensamblador (nasm): compilación
+    3. Para cada uno de los lenguajes anteriores, indica el nombre del compilador o interprete utilizado en GNU/Linux.
+      	 bash: bash
+      	 python: python 
+      	 php: php
+      	 javascript: node
+      	 c: gcc
+      	 c++: g++
+      	 java: javac
+      	 ruby: ruby
+      	 go: go build
+      	 rust: rustc
+      	 lisp: clisp
+       ensamblador (nasm): 
+    4. Investiga y averigua que extensión tienen los archivos de código fuente de los siguientes lenguajes:
+       	 bash: .sh
+      	 python: .py
+     	 php: .php
+      	 javascript: .js
+         c: .c
+      	 c++: .cpp
+      	 java: .java
+      	 ruby: .rb
+     	 go: .go
+     	 rust: .rs
+     	 lisp: .lisp
+         ensamblador (nasm): .asm
+    5. Scripts ejecutables para los lenguajes interpretados. Edita los scripts para los siguientes lenguajes:
+	 bash
+      	 python
+     	 php
+      	 javascript
+      	 java
+      	 ruby
+     	 go
+     	 rust
+     	 lisp
+    6. ¿Qué extensión tienen los archivos de código objeto?
+         .o
